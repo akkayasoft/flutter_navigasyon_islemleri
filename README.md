@@ -61,6 +61,61 @@ Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Galeri()));
 ![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/3706eaa3-c93e-436c-8421-4c6f0ae1a788)
 
 
+*************************************************************************************************************************
+
+## Ders 3 : pushReplacement, canPop, MaybePop ve WillPopScope Metotları
+
+1. pushReplacement
+Navigator.pushReplacement metodu, mevcut sayfayı yeni bir sayfa ile değiştirir.
+Yeni sayfaya geçerken, eski sayfa navigasyon yığınından çıkarılır. Bu, kullanıcı için bir "yer değiştirme" efekti yaratır.
+Örneğin, bir giriş ekranından ana ekrana geçişte kullanılır.
+
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/ead6c0fa-205a-42f7-8a85-96b88af0e3a7)
+
+
+
+2. maybePop
+Navigator.maybePop metodu, yığında geri dönülebilecek bir sayfa varsa (yani canPop true dönerse),
+mevcut sayfayı kapatır ve bir önceki sayfaya döner. Eğer yığında geri dönülecek sayfa yoksa hiçbir şey yapmaz.
+Bu, kullanıcı bir "geri" butonuna bastığında uygulamanın otomatik olarak davranmasını sağlar.
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/a19598d0-8bc8-49bf-8f84-afd527765a04)
+
+
+
+3. canPop
+Navigator.canPop metodu, navigasyon yığınında şu anda gösterilen sayfadan başka sayfa olup olmadığını kontrol eder.
+Eğer başka sayfa varsa true, yoksa false döner. Bu, geri butonunun görünürlüğünü kontrol etmek için kullanılabilir.
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/45e878d8-a159-4c20-aee6-a125dc1da282)
+
+
+4. WillPopScope
+WillPopScope widget'ı, kullanıcının Android cihazındaki geri tuşuna bastığı zaman yapılacak işlemleri yönetmek için kullanılır.
+ Bu widget sayesinde, kullanıcı geri tuşuna bastığında uygulama tarafından özel bir işlem gerçekleştirilebilir.
+Örneğin, bir onay diyalogu gösterilebilir.
+
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/727c79aa-36c2-42b1-96c8-2f310ce16d5c)
+
+
+ 5. Projemizde Çalışmalarımız sayfasında bu metotları ele alalım.
+
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/8d83bcc7-f881-4b8e-adb6-670808e7f171)
+
+
+6. WillPopScope için İletişim Sayfasında basit bir form uygulaması yapalım.
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/9486a2cd-8348-4584-8390-3ad9e98bf5fe)
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/9bbbb3eb-f915-4302-9ccd-b9d19617d6d2)
+
+
+**************************************************************************************************************************
+
+
 
 
 
