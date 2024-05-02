@@ -33,7 +33,35 @@ Sayfayı çalıştırılınca görseldeki tasarım oluşmuş olacaktır.
 
 ![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/3c2182e6-3e67-419f-8dc1-446ef33f51be)
 
+
 **************************************************************************************************************************
+
+## Ders 2 : Navigator push – pop ile sayfa geçişleri
+
+1.	anasayfa içinde body alanında oluşturulan myCard yapılarını kullanarak ilgili
+butona basınca ilgili sayfaya gitme işlemlerini yapalım.
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/e51bf0bb-8c6f-45ea-a476-202e41c6feda)
+
+2.	Yukarıdaki kodlarda da görüldüğü gibi sayfa geçişleri için basit anlamda aşağıdaki kod kullanılır.
+Örneğin Galeri sayfasına gidilmesi için aşağıdaki kod yazılır.
+
+Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Galeri()));
+
+3.	Galeri sayfası için bir tasarım oluşturalım.
+
+
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/40191606-9903-4fea-889a-8cc82bc48294)
+
+4.	Aşağıda görüldüğü gibi pop metodu sayesinde bir önceki sayfaya geri dönülmüştür.
+
+
+
+![image](https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/3706eaa3-c93e-436c-8421-4c6f0ae1a788)
+
+
+
 
 
 
