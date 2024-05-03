@@ -115,6 +115,26 @@ WillPopScope widget'ı, kullanıcının Android cihazındaki geri tuşuna bastı
 
 **************************************************************************************************************************
 
+## Ders 4 : Rota Tanımlama İşlemleri ( pushNamed )
+
+1. Önceki yöntemlerde push yapısı ile belirli sayfalara giriş önceden belirleniyordu. Eğer yanlış bir yazım veya
+yönlendirme olunca program çöker.
+2. Bunun yerine pushNamed yöntemi kullanılabilir.
+3. main.dart içinde home kısmını yorum satırı haline getirelim ve hemen altına rotaları aşağıdaki gibi tanımlayalım.
+
+<img width="1040" alt="Screenshot 2024-05-03 at 20 53 28" src="https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/901056ee-369b-48b4-88b4-302a2c47a8e2">
+
+4. Üstteki resimde routes {} alanı içinde var olan rotalar tanımlanmıştır.
+5. onUnknownRoute kısmında ise rota içinde tanımlı olmayan bir yola girilmişse 404 sayfası gibi bir sayfa tanımlaması
+yapılmıştır.
+6. Bu rotaları pushNamed ile anasayfa.dart içerisinde myCard widget larının onTap yapısı içinde önceki push yapılarını
+yorum satırı yaparak yeniden aşağıdaki gibi çağıralım.
+
+<img width="1026" alt="Screenshot 2024-05-03 at 20 59 06" src="https://github.com/akkayasoft/flutter_navigasyon_islemleri/assets/133866777/181138b1-44cd-495a-92c4-b654228e79b6">
+
+*************************************************************************************************************************
+
+
 
 
 
